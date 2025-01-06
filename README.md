@@ -18,6 +18,8 @@
 > ### Note ⚠️
 ``` 
 This the content described here is under the MIT licence. Please read the license before using it.
+
+Also please check if the release versions of the projekt is uptodate with the poject version. In the case that there are major differences in these versions then this documentation might be outdated. The versions can be found up top.
 ```
 
 > ### Description 🤔
