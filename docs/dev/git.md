@@ -1,7 +1,7 @@
 ### Git - Version workflow
 ---
 
-[[ Wiki ](../../README.md)] [[ Development ](README.md)]
+[ [Wiki](../../README.md) ] [ [Development](README.md) ]
 
 ---
 
