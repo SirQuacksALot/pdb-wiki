@@ -35,6 +35,7 @@ Along side the documentation of the Bot base, the [AutoChannel]() and [AutoClean
     - [Script - Running Python script]()
 - [Development]()
     - [DIY - Make a plugin]()
+    - [Git - Version workflow]()
     - [Base - Dev Documentation]()
     - [AutoChannel Plugin - Dev Documentation]()
     - [AutoClean Plugin - Dev Documentation]()
