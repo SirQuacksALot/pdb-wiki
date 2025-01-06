@@ -13,10 +13,10 @@ The branches are categiresed branches wich means that they are named by a catego
 
 The exp branches a special in the way that they are named in the following way: `exp_implementation_short_description` and can occure multiple times with different names. They should be use for step by step implementation of features and quick fixes.
 
-> ### Version Types (*Tags*) 📦
+> ### Release Version Types (*Tags*) 📦
 The version types are represented by Tags for the releases. Wich are created automaticly by a git action workflow. They are created on branch creation chnages and merges.
 
-> Version Format: ` s.d.e `  
+> Version Name Format: ` s.d.e `  
 > `s` = stable version - a set of features wich are implemented are fully tested  
 > `d` = development version - new features are implemented and in testing  
 > `e` = experimental version - implementation of new feature for debugging and testing
