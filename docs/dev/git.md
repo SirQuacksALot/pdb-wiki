@@ -14,7 +14,7 @@ The branches are categiresed branches wich means that they are named by a catego
 The exp branches a special in the way that they are named in the following way: `exp_implementation_short_description` and can occure multiple times with different names. They should be use for step by step implementation of features and quick fixes.
 
 > ### Version Types (*Tags*) 📦
-The version types are represented by Tags for the releases. Wich are created automaticly by a git action workflow.
+The version types are represented by Tags for the releases. Wich are created automaticly by a git action workflow. They are created on branch creation chnages and merges.
 
 The first version type will be **experimental**. In the numeric version name it is displayed by the third number (v0.0.X) an is for highly unstable code wich isnt tested yet. Its purpose is mostly debugging and testing like quick fixes or step my step implemtation.
 
