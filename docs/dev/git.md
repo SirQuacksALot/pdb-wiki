@@ -25,6 +25,6 @@ The first version type will be **experimental**. In the numeric version name it 
 
 The second is **development** and it is displayed by the second number in the numeric display way (v0.X.0). It is for testing a implemented features in a development enviornment. The dev branches purpose is to server a service wich automaticly syncs or installes the repo / programm and give the developer (a groupe of testers) the possibility to test and or debug the current state of the feature wich is getting implemented into the state of the programm.  
 
-The third and last is the **stable** branch. Its numeric represetaion is the first number (vX.0.0). This branch is for the implementation of a stable feature or a set of tested and stable features. It is a representation of the production state of the service or programm.  
+The third and last is the **stable**. Its numeric represetaion is the first number (vX.0.0). This branch is for the implementation of a stable feature or a set of tested and stable features. It is a representation of the production state of the service or programm.  
 
 ```Examples: 1.6.372, 1.8.0, 2.0.0 ```
