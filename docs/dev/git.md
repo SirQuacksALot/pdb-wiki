@@ -13,13 +13,18 @@ The branches are categiresed branches wich means that they are named by a catego
 
 The exp branches a special in the way that they are named in the following way: `exp_implementation_short_description` and can occure multiple times with different names. They should be use for step by step implementation of features and quick fixes.
 
-> ### Release Version Types (*Tags*) 📦
-The version types are represented by Tags for the releases. Wich are created automaticly by a git action workflow. They are created on branch creation chnages and merges.
+> ### Releases 
+Releases are a representation of the state of the project. They are created automaticly by a git action workflow on branch creation, changes and merges. To clarify the different version types the release name will be in a specific format described as shown follows:
 
 > Version Name Format: ` s.d.e `  
-> `s` = stable version - a set of features wich are implemented are fully tested  
-> `d` = development version - new features are implemented and in testing  
-> `e` = experimental version - implementation of new feature for debugging and testing
+> `s` = stable version ➔  a set of features wich are implemented are fully tested  
+> `d` = development version ➔  new features are implemented and in testing  
+> `e` = experimental version ➔  implementation of new feature for debugging and testing
+
+Releases will be created specfied by the a created experimental branch, the merge of a experimental branch into the dev branch and the merge from dev to stable branch. Depending on the last release version name and the way of creation (experimntal creation, development merge or stable merge) the name of the new release will in crease the respectiv digit. 
+
+> ### Version Types (*Tags*) 📦
+The version types are representativ Tags for the releases. Those are three different categorie types wich are **experimental**, **development** and **stable** and they go hand in hand with the branch structure.
 
 The first version type will be **experimental**. In the numeric version name it is displayed by the third number (v0.0.X) an is for highly unstable code wich isnt tested yet. Its purpose is mostly debugging and testing like quick fixes or step my step implemtation.
 
